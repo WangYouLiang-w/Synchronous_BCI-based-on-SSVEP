@@ -1,5 +1,5 @@
 # Synchronous_BCI-based-on-SSVEP
-# 异步BCI的处理程序主要包括以下：
+# 同步SSVEP-BCI的处理程序主要包括以下：
 
 # （1）解码算法和分类算法
 # （2）脑电数据的预处理
