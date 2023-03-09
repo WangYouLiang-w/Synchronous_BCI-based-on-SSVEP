@@ -492,11 +492,11 @@ class algorithmthread():
 
 
     def run(self):
-        # r,__ = self.extractor.test_algorithm(self.testdata)
-        # self.appendResult(r)
-        # brain_result = self.BrainResultDecide()
-        eye_result = self.EyeResultDecide(self.eye_testdata)
-        self.SenderRsult(eye_result)                         # 发送决策结果
+        r,__ = self.extractor.test_algorithm(self.testdata)
+        self.appendResult(r)
+        brain_result = self.BrainResultDecide()
+        # eye_result = self.EyeResultDecide(self.eye_testdata)
+        self.SenderRsult(brain_result)                         # 发送决策结果
         self.clearTestdata()                       # 清除数据缓存
 
 

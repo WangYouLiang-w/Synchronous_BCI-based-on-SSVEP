@@ -56,7 +56,6 @@ if __name__ == '__main__':
     ControlAddr = (IP,7820)    # 控制单元的服务端地址
     FeedBackAddr = (IP,7830)   # 反馈单元的服务端地址
 
-
     dataRunner = algorithmthread(fs=srate, w=w, template=template,addloop=addloop, Nfb=1,
                                  ControlAddr=ControlAddr, FeedBackAddr=FeedBackAddr, mode='R_LB')
 
